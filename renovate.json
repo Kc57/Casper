@@ -1,15 +1,9 @@
 {
   "extends": [
-    "config:base"
+    "@tryghost:theme"
   ],
-  "packageRules": [
-    {
-      "packagePatterns": ["^postcss", "css", "autoprefixer"],
-      "groupName": "css"
-    },
-    {
-      "packagePatterns": ["gulp"],
-      "groupName": "gulp"
-    }
-  ]
+  "travis": { "enabled": true },
+  "node": {
+    "supportPolicy": ["lts_latest"]
+  }
 }
