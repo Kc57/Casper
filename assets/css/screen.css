@@ -942,7 +942,7 @@ Usage (In Ghost editor):
 
 .post-full-content pre code {
     padding: 0;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: inherit;
     background: transparent;
 }
@@ -1843,7 +1843,7 @@ Usage (In Ghost editor):
 .post-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*align-items: center;*/
     max-width: 920px;
 }
 
@@ -1870,7 +1870,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content figure {
-    margin: 1em 0 1.5em;
+    margin: 1.5em 0 3em;
 }
 
 .post-full-content figure img {
